@@ -28,16 +28,17 @@ We initialized a specialized synthetic remote-sensing dataset mapped explicitly 
 ---
 
 ## 2. Model Fitting & Probability Calibration
-A Logistic Regression model was fitted using balanced class weights to mathematically adjust for the heavy class imbalance (where only 1.94% of the coordinates surveyed contain actual structural ruins). 
-
-Below is the training verification process:
-
-![Model Training Process](Screenshots/2.png)
+A Logistic Regression model was fitted using balanced class weights to mathematically adjust for the heavy class imbalance (where only 1.94% of the coordinates surveyed contain actual structural ruins).
 
 ### The Logistic Regression Model (Sigmoid Curve)
 The graph below maps out the raw geometric linear combinations (log-odds) into bounded probability scores. The orange dots trace the ground truth distribution, while the dark blue line displays the mathematical Sigmoid activation mapping.
 
 ![Logistic Regression Sigmoid Curve](Screenshots/1_sigmoid_curve.png)
+
+### Model Fitting Process & Calibration Verification
+Below is the training verification process and terminal logs explaining the baseline curve convergence properties:
+
+![Model Training Process](Screenshots/2.png)
 
 ---
 
