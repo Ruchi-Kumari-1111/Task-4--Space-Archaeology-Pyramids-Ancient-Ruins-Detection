@@ -70,7 +70,9 @@ Below is the verified area verification score confirming optimal non-overlapping
 
 ![ROC Curve Logs](Screenshots/4.png)
 
-### Threshold Value & Metric Tuning Curve
+---
+
+## 5. Threshold Value & Metric Tuning Curve
 This visual plot evaluates Precision, Recall, and the overarching F1-Score across every prospective probability selection point ranging from 0.0 to 1.0 to outline the ultimate operational trade-off parameters.
 
 ![Threshold Tuning Graph](Screenshots/4_threshold_tuning.png)
